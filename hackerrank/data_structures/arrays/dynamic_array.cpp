@@ -17,8 +17,7 @@ int main(void)
         cin >> a >> x >> y;
         long long int index = (x ^ lastAnswer) % n;
 
-        if (a == 1)
-        {
+        if (a == 1){
             seq[index].push_back(y);
         }
         else if (a == 2)
