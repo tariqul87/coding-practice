@@ -10,10 +10,8 @@
     {
       "label": "Compile and run",
       "type": "shell",
-      "command": "",
+      "command": "g++",
       "args": [
-        "g++",
-        "-g",
         "${relativeFile}",
         "-o",
         "${fileBasenameNoExtension}.out",
